@@ -1,0 +1,36 @@
+.politics{
+    display:inline;
+    position:absolute;
+    border: 10px;
+    margin-right: 400px;
+}
+.topic{
+    height:100px;
+    width:100px;
+    padding-left: 1000px;
+}
+.homepage{
+    float:left;
+    height:60%;
+    width:100%;
+    color:white;
+    background-color: black;
+}
+.cricket
+{
+    position:absolute;
+    float:left;
+    margin-left: 200px;
+}
+.crime
+{
+    position:absolute;
+    float:left;
+    margin-left: 300px;
+}
+.technology
+{
+    position:absolute;
+    float:left;
+    margin-left: 400px;
+}

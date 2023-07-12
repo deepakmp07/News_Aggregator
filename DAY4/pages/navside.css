@@ -1,0 +1,88 @@
+/* Navbar */
+.contain {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* text-decoration: none; */
+}
+
+.first {
+  background-color: aqua;
+  /* text-decoration: none; */
+}
+
+.navbar {
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #635b5b;
+  padding: 10px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 50px;
+  color:white;
+  /* text-decoration: dotted; */
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color:rgb(145, 17, 17);
+  color: #fcfcfc;
+}
+.nav-links li a:focus{
+  color:#f2f2f2;
+   background-color: aquamarine;
+}
+/* Add highlighting to the active link */
+.nav-links li a.active-link {
+  font-weight: bold;
+}
+
+.subject{
+  display: flex;
+  flex-direction: row;
+}
+/* Side Navbar */
+.side-navbar {
+  background-color: #333;
+  color: #fff;
+  width: 150px;
+  height: 270px;
+  padding: 10px;
+}
+
+.side-nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-nav-links li {
+  margin-bottom: 10px;
+}
+
+.side-nav-links li a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+
+.side-nav-links li a:hover {
+  background-color: #555;
+}
+
+/* Content */
+.content {
+  width: 100%;
+}
